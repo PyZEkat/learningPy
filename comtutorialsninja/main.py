@@ -56,7 +56,7 @@ searchNclick(laplinks.get('mychoise'))
 scr.screenshot()
 gf.checkElement(maclinks.get('titlemac'))
 
-cleartext(maclinks.get('quantity')) #сначала очистить строку
+cleartext(maclinks.get('quantity')) #сначала очистить строку 11111111111111
 writeText(maclinks.get('quantity'), '2')
 searchNclick(maclinks.get('add'))
 gf.checkElement(maclinks.get('success'))
